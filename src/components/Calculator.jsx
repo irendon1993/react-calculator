@@ -7,7 +7,6 @@ export function Calculator() {
   const [firstNumber, setFirstNumber] = useState('')
   const [secondNumber, setSecondNumber] = useState('')
   const [operator, setOperator] = useState(null)
-  // const [result, setResult] = useState(null)
 
   function clickedClearButton(event) {
     setFirstNumber('')
